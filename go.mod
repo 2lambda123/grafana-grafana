@@ -161,7 +161,7 @@ require (
 	github.com/yudai/gojsondiff v1.0.0 // @grafana/grafana-backend-group
 	go.opentelemetry.io/collector/pdata v1.15.0 // @grafana/grafana-backend-group
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.54.0 // @grafana/plugins-platform-backend
-	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.55.0 // @grafana/grafana-operator-experience-squad
+	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.56.0 // @grafana/grafana-operator-experience-squad
 	go.opentelemetry.io/contrib/propagators/jaeger v1.30.0 // @grafana/grafana-backend-group
 	go.opentelemetry.io/contrib/samplers/jaegerremote v0.23.0 // @grafana/grafana-backend-group
 	go.opentelemetry.io/otel v1.31.0 // @grafana/grafana-backend-group
@@ -436,7 +436,7 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.14 // indirect
 	go.mongodb.org/mongo-driver v1.15.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.55.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.56.0 // indirect
 	go.opentelemetry.io/otel/metric v1.31.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
