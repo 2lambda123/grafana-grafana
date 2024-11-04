@@ -14,7 +14,7 @@ replace github.com/prometheus/prometheus => github.com/prometheus/prometheus v0.
 require (
 	buf.build/gen/go/parca-dev/parca/bufbuild/connect-go v1.10.0-20240806091833-cb8c8ac2e7ff.1 // @grafana/observability-traces-and-profiling
 	buf.build/gen/go/parca-dev/parca/protocolbuffers/go v1.34.2-20240902100956-02fd72488966.2 // @grafana/observability-traces-and-profiling
-	cloud.google.com/go/kms v1.20.0 // @grafana/grafana-backend-group
+	cloud.google.com/go/kms v1.20.1 // @grafana/grafana-backend-group
 	cloud.google.com/go/storage v1.43.0 // @grafana/grafana-backend-group
 	cuelang.org/go v0.6.0-0.dev // @grafana/grafana-as-code
 	filippo.io/age v1.1.1 // @grafana/identity-access-team
