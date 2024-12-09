@@ -1,7 +1,7 @@
 module github.com/grafana/grafana
 
 go 1.22.4
-toolchain go1.23.3
+toolchain go1.23.4
 
 // contains openapi encoder fixes. remove ASAP
 replace cuelang.org/go => github.com/grafana/cue v0.0.0-20230926092038-971951014e3f // @grafana/grafana-as-code
@@ -51,7 +51,7 @@ require (
 	github.com/fatih/color v1.18.0 // @grafana/grafana-backend-group
 	github.com/fullstorydev/grpchan v1.1.1 // @grafana/grafana-backend-group
 	github.com/gchaincl/sqlhooks v1.3.0 // @grafana/grafana-search-and-storage
-	github.com/getkin/kin-openapi v0.127.0 // @grafana/grafana-as-code
+	github.com/getkin/kin-openapi v0.128.0 // @grafana/grafana-as-code
 	github.com/go-jose/go-jose/v3 v3.0.3 // @grafana/identity-access-team
 	github.com/go-kit/log v0.2.1 //  @grafana/grafana-backend-group
 	github.com/go-ldap/ldap/v3 v3.4.8 // @grafana/identity-access-team
