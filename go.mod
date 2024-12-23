@@ -159,7 +159,7 @@ require (
 	github.com/xlab/treeprint v1.2.0 // @grafana/observability-traces-and-profiling
 	github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d // @grafana/grafana-operator-experience-squad
 	github.com/yudai/gojsondiff v1.0.0 // @grafana/grafana-backend-group
-	go.opentelemetry.io/collector/pdata v1.21.0 // @grafana/grafana-backend-group
+	go.opentelemetry.io/collector/pdata v1.22.0 // @grafana/grafana-backend-group
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.57.0 // @grafana/plugins-platform-backend
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.57.0 // @grafana/grafana-operator-experience-squad
 	go.opentelemetry.io/contrib/propagators/jaeger v1.33.0 // @grafana/grafana-backend-group
@@ -184,7 +184,7 @@ require (
 	golang.org/x/tools v0.27.0 // @grafana/grafana-as-code
 	gonum.org/v1/gonum v0.15.1 // @grafana/observability-metrics
 	google.golang.org/api v0.205.0 // @grafana/grafana-backend-group
-	google.golang.org/grpc v1.68.0 // @grafana/plugins-platform-backend
+	google.golang.org/grpc v1.68.1 // @grafana/plugins-platform-backend
 	google.golang.org/protobuf v1.35.2 // @grafana/plugins-platform-backend
 	gopkg.in/ini.v1 v1.67.0 // @grafana/alerting-backend
 	gopkg.in/mail.v2 v2.3.1 // @grafana/grafana-backend-group
