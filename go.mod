@@ -168,7 +168,7 @@ require (
 	go.opentelemetry.io/otel/exporters/jaeger v1.17.0 // @grafana/grafana-backend-group
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.32.0 // @grafana/grafana-backend-group
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.32.0 // @grafana/grafana-backend-group
-	go.opentelemetry.io/otel/sdk v1.32.0 // @grafana/grafana-backend-group
+	go.opentelemetry.io/otel/sdk v1.33.0 // @grafana/grafana-backend-group
 	go.opentelemetry.io/otel/trace v1.33.0 // @grafana/grafana-backend-group
 	go.uber.org/atomic v1.11.0 // @grafana/alerting-backend
 	go.uber.org/goleak v1.3.0 // @grafana/grafana-search-and-storage
