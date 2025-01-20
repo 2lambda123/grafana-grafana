@@ -1,7 +1,7 @@
 module github.com/grafana/grafana
 
 go 1.22.4
-toolchain go1.23.4
+toolchain go1.23.5
 
 // contains openapi encoder fixes. remove ASAP
 replace cuelang.org/go => github.com/grafana/cue v0.0.0-20230926092038-971951014e3f // @grafana/grafana-as-code
@@ -462,7 +462,7 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect; @grafana-app-platform-squad
 )
 
-require github.com/phpdave11/gofpdi v1.0.13 // @grafana/sharing-squad
+require github.com/phpdave11/gofpdi v1.0.14 // @grafana/sharing-squad
 
 require (
 	github.com/google/go-querystring v1.1.0 // indirect; @grafana/observability-metrics
