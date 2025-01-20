@@ -1,7 +1,7 @@
 module github.com/grafana/grafana
 
 go 1.22.4
-toolchain go1.23.4
+toolchain go1.23.5
 
 // contains openapi encoder fixes. remove ASAP
 replace cuelang.org/go => github.com/grafana/cue v0.0.0-20230926092038-971951014e3f // @grafana/grafana-as-code
@@ -100,7 +100,7 @@ require (
 	github.com/grafana/grafana/pkg/promlib v0.0.6 // @grafana/observability-metrics
 	github.com/grafana/otel-profiling-go v0.5.1 // @grafana/grafana-backend-group
 	github.com/grafana/pyroscope-go/godeltaprof v0.1.8 // @grafana/observability-traces-and-profiling
-	github.com/grafana/pyroscope/api v0.3.0 // @grafana/observability-traces-and-profiling
+	github.com/grafana/pyroscope/api v1.2.0 // @grafana/observability-traces-and-profiling
 	github.com/grafana/tempo v1.5.1-0.20240604192202-01f4bc8ac2d1 // @grafana/observability-traces-and-profiling
 	github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus v1.0.1 // @grafana/plugins-platform-backend
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.2.0 // @grafana/grafana-backend-group
@@ -478,6 +478,7 @@ require (
 require (
 	cel.dev/expr v0.18.0 // indirect
 	cloud.google.com/go/longrunning v0.6.2 // indirect
+	connectrpc.com/connect v1.16.2 // indirect
 	dario.cat/mergo v1.0.1 // indirect
 	github.com/Yiling-J/theine-go v0.6.0 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
