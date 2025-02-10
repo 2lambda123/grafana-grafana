@@ -1,7 +1,7 @@
 module github.com/grafana/grafana
 
 go 1.22.4
-toolchain go1.23.5
+toolchain go1.23.6
 
 // contains openapi encoder fixes. remove ASAP
 replace cuelang.org/go => github.com/grafana/cue v0.0.0-20230926092038-971951014e3f // @grafana/grafana-as-code
@@ -185,7 +185,7 @@ require (
 	gonum.org/v1/gonum v0.15.1 // @grafana/observability-metrics
 	google.golang.org/api v0.214.0 // @grafana/grafana-backend-group
 	google.golang.org/grpc v1.69.2 // @grafana/plugins-platform-backend
-	google.golang.org/protobuf v1.36.1 // @grafana/plugins-platform-backend
+	google.golang.org/protobuf v1.36.5 // @grafana/plugins-platform-backend
 	gopkg.in/ini.v1 v1.67.0 // @grafana/alerting-backend
 	gopkg.in/mail.v2 v2.3.1 // @grafana/grafana-backend-group
 	gopkg.in/yaml.v3 v3.0.1 // @grafana/alerting-backend
