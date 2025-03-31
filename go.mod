@@ -12,7 +12,7 @@ replace cuelang.org/go => github.com/grafana/cue v0.0.0-20230926092038-971951014
 replace github.com/prometheus/prometheus => github.com/prometheus/prometheus v0.52.0
 
 require (
-	buf.build/gen/go/parca-dev/parca/bufbuild/connect-go v1.10.0-20240902100956-02fd72488966.2 // @grafana/observability-traces-and-profiling
+	buf.build/gen/go/parca-dev/parca/bufbuild/connect-go v1.10.0-20250212095114-4db6f2d46517.2 // @grafana/observability-traces-and-profiling
 	buf.build/gen/go/parca-dev/parca/protocolbuffers/go v1.36.1-20241210134125-ae5a61330ad4.1 // @grafana/observability-traces-and-profiling
 	cloud.google.com/go/kms v1.21.0 // @grafana/grafana-backend-group
 	cloud.google.com/go/storage v1.50.0 // @grafana/grafana-backend-group
